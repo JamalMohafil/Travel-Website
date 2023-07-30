@@ -34,6 +34,7 @@
 
 html {
     -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
 }
 
 body {
@@ -912,5 +913,19 @@ header nav ul .logo {
     }
     .swiper-slide {
         width: 40% !important;
+    }
+    footer .container {
+        grid-template-columns: 1fr;
+        column-gap: 20px !important;
+    }
+    .list-two {
+        padding-left: 0;
+    }
+    .copyright {
+        display: block !important;
+        font-size: 15px;
+    }
+    .copyright a {
+        text-align: center;
     }
 }
