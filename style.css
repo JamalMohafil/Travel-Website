@@ -457,9 +457,10 @@ main {
   }
 
   .swiper-slide {
-    width: 25%;
+    width: 30% !important;
     position: relative;
     cursor: pointer;
+    margin-right: 5px !important;
     border-radius: 15px !important;
   }
   .swiper-slide::before {
@@ -625,7 +626,7 @@ footer .copyright a {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 50%;
+    width: 60%;
     border-radius: 40px;
     transition: var(--transition);
 }
@@ -663,6 +664,7 @@ header nav ul .logo {
     }
 }
 @media (max-width:950px){
+    
         footer .container {
             grid-template-columns: 1.5fr 1fr 1fr;
             gap: 36px;
@@ -680,6 +682,9 @@ header nav ul .logo {
 @media (max-width:767px) {
     main {
         width: 90%;
+    }
+    .img-panel .img-cont {
+        width: 84%;
     }
     .hero .content h2 {
         font-size: 26px;
@@ -725,7 +730,7 @@ header nav ul .logo {
         width: 100%;
     }
     .swiper-slide {
-        width:35%  !important;
+        width:40%  !important;
         margin-right: 4px !important ;
     }
     .swiper-slide img{
@@ -928,4 +933,5 @@ header nav ul .logo {
     .copyright a {
         text-align: center;
     }
+    
 }
